@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-color: #171717;
+}
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5% 8px 5%;
+    margin-bottom: 20px;
+    background-color: #171717;
+    position: fixed;
+}
+section nav .logo h1{
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+section nav .logo h1 span{
+    color: yellow;
+    text-decoration: underline;
+    margin-left: 6px;
+}
+section nav .right ul{
+    list-style: none;
+}
+section nav .right ul li{
+    display: inline-block;
+    margin: 12px;
+}
+section nav .right ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+section nav .right ul li a:hover{
+    color: yellow;
+}
+#button{
+    background-color: red;
+    color: #fff;
+    margin-left: 25px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+label{
+    color: #fff;
+    cursor: pointer;
+    
+    
+}
+label:hover{
+    color: yellow;
+}
+input{
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #fff;
+    border: none;
+}
+.movies{
+    background-color:#171717;
+    width: 1000%;
+    height: 100%;
+}
+
+.heading{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    max-width: 968px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: #fff;
+}
+.movies-container{
+margin-left: 15px;
+display: flex;
+justify-content: start;
+align-items: center;
+gap: 1rem;
+}
+.box .box-img{
+    height: 500px;
+    width: 100%;
+    cursor: pointer;
+}   
+.box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box .box-img img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+.newsletter{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10PX;
+    color: #fff;
+}
+.email{
+    padding: 5px;
+    border: solid black;
+}
+.btn{
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+footer{
+    height: 200px;
+}
